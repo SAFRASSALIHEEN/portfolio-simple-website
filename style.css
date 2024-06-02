@@ -1,0 +1,133 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body
+{
+        font-family: "Young Serif", serif;
+        font-weight: 400;
+        font-style: normal;
+      
+}
+
+.container
+{
+    padding: 50px;
+}
+
+.section-01
+{
+    background-color: black;
+    color: white;
+    padding: 20px;
+}
+
+.section-01__contact
+{
+    background-color: orangered;
+    color: white;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    text-decoration: none;
+    display: inline-block;
+    margin-top: 10px;
+}
+
+.section-01__name
+{
+    font-size: 60px;
+}
+
+.section-01__role
+{
+    font-size: 40px;
+    margin-top: 10px;
+}
+
+.section-01,.section-02,.section-03,.section-04,.section-05{
+    margin-top: 20px;
+}
+
+.section-01__desc,.section-02__desc,.section-03__desc,.section-04__desc,.section-05__desc{
+    margin-top: 10px;
+}
+
+.section-05
+{
+    background-color: black;
+    color: white;
+    padding: 20px;
+}
+
+.section-05__title a{
+    color: skyblue;
+    text-decoration: none;
+}
+
+.section-03__desc li, .section-04__desc li{
+    list-style: none;
+}
+
+.section-03
+{
+    background-color: #6462FD;
+    color: black;
+    padding: 20px;
+    display: inline-block;
+    height: 200px;
+    border-radius: 10px;
+    vertical-align: top;
+}
+
+.section-04
+{
+    background-color: #FE7517;
+    color: black;
+    padding: 20px;
+    display: inline-block;
+    height: 200px;
+    border-radius: 10px;
+    vertical-align: top;
+}
+
+.contact-form
+{
+    margin-top: 20px;
+}
+
+.contact-form__input, .contact-form__textarea, .contact-form__submit
+{
+    margin-top: 10px;
+}
+
+.contact-form__input
+{
+    padding: 10px;
+    border:none;
+    border-bottom: solid black 1px;
+}
+
+.contact-form__textarea
+{
+    padding: 10px;
+    border:none;
+    border: solid black 1px;
+}
+
+.contact-form__submit
+{
+   padding-top: 10px;
+   padding-bottom: 10px;
+   padding-left: 20px;
+   padding-right: 20px;
+   background-color: orangered;
+   color: white !important;
+   border: none;
+}
+
+
+
+
+
